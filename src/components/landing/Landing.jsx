@@ -5,11 +5,12 @@ function Landing() {
     <div className={styles.landing}>
       <div className={styles.landing_bg}></div>
       <div className={styles.left}>
-        <h2>Plant Store</h2>
+        <h2>Welcome to Paradise Nursery</h2>
         <h3>Freshly cut flowers, delivered with care.</h3>
-        <button>Browse Flowers</button>
+        <button className={styles.button}>Browse Flowers</button>
       </div>
       <div className={styles.right}>
+        <p>Turn your living space into a flower paradise.</p>
         <p>
           Indulge your senses in a world of beauty with our stunning flower
           arrangements. From classic roses to exotic lilies, we have the perfect
