@@ -1,0 +1,44 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.5rem, 5vw, 5rem);
+  position: relative;
+}
+
+.landing_bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/flower_shop.jpg);
+  background-size: cover;
+  background-color: green;
+  filter: blur(5px);
+  transform: scale(1.05);
+}
+
+.left {
+  width: 40%;
+  max-width: 480px;
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.right {
+  width: 60%;
+  max-width: 58ch;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 2rem;
+  z-index: 1;
+}

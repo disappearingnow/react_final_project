@@ -1,7 +1,12 @@
 import "./App.css";
+import { Landing } from "./components";
 
 function App() {
-  return <p>Nothing here yet</p>;
+  return (
+    <>
+      <Landing />
+    </>
+  );
 }
 
 export default App;
