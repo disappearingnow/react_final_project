@@ -5,6 +5,7 @@
   align-items: center;
   gap: clamp(0.5rem, 5vw, 5rem);
   position: relative;
+  overflow: hidden;
 }
 
 .landing_bg {
@@ -14,14 +15,13 @@
   background-image: url(./img/flower_shop.jpg);
   background-size: cover;
   background-color: green;
-  filter: blur(5px);
+  filter: blur(5px) brightness(0.8);
   transform: scale(1.05);
 }
 
 .left {
   width: 40%;
   max-width: 480px;
-  background: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +33,6 @@
 .right {
   width: 60%;
   max-width: 58ch;
-  background: red;
   display: flex;
   flex-direction: column;
   gap: 2rem;
